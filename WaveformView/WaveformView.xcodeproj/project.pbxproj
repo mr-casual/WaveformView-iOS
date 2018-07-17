@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2456FA720FCF067005E4605 /* WaveformView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2456FA620FCF067005E4605 /* WaveformView.podspec */; };
 		AB0CB0CF1D7C78E200C74A8B /* WaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0CB0CD1D7C78E200C74A8B /* WaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2D58FA1D7C7EB600684DA8 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D58F91D7C7EB600684DA8 /* WaveformView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2456FA620FCF067005E4605 /* WaveformView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = WaveformView.podspec; path = ../WaveformView.podspec; sourceTree = "<group>"; };
 		AB0CB0CA1D7C78E200C74A8B /* WaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0CB0CD1D7C78E200C74A8B /* WaveformView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveformView.h; sourceTree = "<group>"; };
 		AB0CB0CE1D7C78E200C74A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +35,7 @@
 			isa = PBXGroup;
 			children = (
 				AB0CB0CC1D7C78E200C74A8B /* WaveformView */,
+				A2456FA620FCF067005E4605 /* WaveformView.podspec */,
 				AB0CB0CB1D7C78E200C74A8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2456FA720FCF067005E4605 /* WaveformView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
